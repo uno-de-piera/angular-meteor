@@ -221,7 +221,7 @@ There are two ways to link `app.ts` and `angular2-meteor.d.ts` together:
 
         import {Component, View} from 'angular2/core';
 
-        import {bootstrap} from 'angular2/bootstrap';
+        import {bootstrap} from 'angular2/platform/browser';
 
  - another way is to create a custom [TypeScript configuration file](https://github.com/Microsoft/TypeScript/wiki/tsconfig.json) with the "files" property set to include all required typings files.
 
